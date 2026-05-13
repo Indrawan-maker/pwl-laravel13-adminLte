@@ -63,11 +63,12 @@ class KategoriController extends Controller
      */
     public function update(Request $request, string $id)
     {
+        $kategori = M_kategori::findOrFail($id);
         $request->validate([
             "nama_kategori" => "required|min:8|max:255"
         ]);
 
-        M_kategori::create([
+        M_kategori::update([
             "nama_kategori" => $request->nama_kategori
         ]);
 

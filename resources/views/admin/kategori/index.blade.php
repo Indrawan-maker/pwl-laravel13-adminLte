@@ -63,7 +63,7 @@
                                     @csrf
                                     @method('DELETE')
 
-                                    <button type="submit"
+                                    <button
                                             class="btn btn-danger btn-sm"
                                             onclick="return confirm('Yakin mau hapus?')">
                                         Delete

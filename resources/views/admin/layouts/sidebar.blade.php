@@ -39,7 +39,7 @@
                 </a>
               </li>
 
-              <li class="nav-header">Kategori</li>
+              <li class="nav-header">Dashboard Berita</li>
               <li class="nav-item">
                 <a href="/kategori" class="nav-link">
                   <i class="nav-icon bi bi-circle-fill"></i>
@@ -47,10 +47,10 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="/berita" class="nav-link">
                   <i class="nav-icon bi bi-circle-fill"></i>
                   <p>
-                    Level 1
+                    Berita
                   </p>
                 </a>
                 <ul class="nav nav-treeview">

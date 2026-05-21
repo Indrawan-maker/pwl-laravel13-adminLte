@@ -68,7 +68,7 @@ class KategoriController extends Controller
             "nama_kategori" => "required|min:8|max:255"
         ]);
 
-        M_kategori::update([
+        $kategori->update([
             "nama_kategori" => $request->nama_kategori
         ]);
 
